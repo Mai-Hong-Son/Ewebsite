@@ -93,9 +93,58 @@
             "titleVn": "Tên bạn là gì?",
             "type": "friend",
             "content": {
-              "vocaburaly": {},
-              "lecture": {},
-              "phonics": {}
+              "vocaburaly": [
+                {
+                  "id": 1,
+                  "name": "Chủ đề hỏi đánh vần tên",
+                  "voca": [
+                    {
+                      "id": 1,
+                      "name": "what"
+                    },
+                    {
+                      "id": 2,
+                      "name": "how"
+                    },
+                    {
+                      "id": 3,
+                      "name": "you"
+                    },
+                    {
+                      "id": 4,
+                      "name": "your"
+                    },
+                    {
+                      "id": 5,
+                      "name": "name"
+                    },
+                    {
+                      "id": 6,
+                      "name": "spell"
+                    }
+                  ]
+                }
+              ],
+              "lecture": [
+                {
+                  "id": 1,
+                  "name": "Hỏi tên người đang nói chuyện và cách trả lời"
+                },
+                {
+                  "id": 2,
+                  "name": "Hỏi các đánh vần tên và cách trả lời"
+                }
+              ],
+              "phonics": [
+                {
+                  "id": 1,
+                  "name": "m"
+                },
+                {
+                  "id": 2,
+                  "name": "p"
+                }
+              ]
             }
           },
           {
@@ -104,9 +153,54 @@
             "titleVn": "Đây là Minnie",
             "type": "friend",
             "content": {
-              "vocaburaly": {},
-              "lecture": {},
-              "phonics": {}
+              "vocaburaly": [
+                {
+                  "id": 1,
+                  "name": "Chủ đề giới thiệu bạn bè",
+                  "voca": [
+                    {
+                      "id": 1,
+                      "name": "this"
+                    },
+                    {
+                      "id": 2,
+                      "name": "that"
+                    },
+                    {
+                      "id": 3,
+                      "name": "yes"
+                    },
+                    {
+                      "id": 4,
+                      "name": "no"
+                    },
+                    {
+                      "id": 5,
+                      "name": "end"
+                    }
+                  ]
+                }
+              ],
+              "lecture": [
+                {
+                  "id": 1,
+                  "name": "Giới thiệu một người bạn mới"
+                },
+                {
+                  "id": 2,
+                  "name": "Hỏi và trả lời về một người bạn mới"
+                }
+              ],
+              "phonics": [
+                {
+                  "id": 1,
+                  "name": "t"
+                },
+                {
+                  "id": 2,
+                  "name": "y"
+                }
+              ]
             }
           },
           {
@@ -115,9 +209,110 @@
             "titleVn": "Bạn bao nhiêu tuổi",
             "type": "friend",
             "content": {
-              "vocaburaly": {},
-              "lecture": {},
-              "phonics": {}
+              "vocaburaly": [
+                {
+                  "id": 1,
+                  "name": "Chủ đề hỏi tuổi",
+                  "voca": [
+                    {
+                      "id": 1,
+                      "name": "who"
+                    },
+                    {
+                      "id": 2,
+                      "name": "how old"
+                    },
+                    {
+                      "id": 3,
+                      "name": "years old"
+                    },
+                    {
+                      "id": 4,
+                      "name": "he"
+                    },
+                    {
+                      "id": 5,
+                      "name": "she"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "name": "Các số đếm từ 1 đến 5",
+                  "voca": [
+                    {
+                      "id": 1,
+                      "name": "one"
+                    },
+                    {
+                      "id": 2,
+                      "name": "two"
+                    },
+                    {
+                      "id": 3,
+                      "name": "three"
+                    },
+                    {
+                      "id": 4,
+                      "name": "four"
+                    },
+                    {
+                      "id": 5,
+                      "name": "five"
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "name": "Các số đếm từ 6 đến 10",
+                  "voca": [
+                    {
+                      "id": 1,
+                      "name": "six"
+                    },
+                    {
+                      "id": 2,
+                      "name": "seven"
+                    },
+                    {
+                      "id": 3,
+                      "name": "eight"
+                    },
+                    {
+                      "id": 4,
+                      "name": "nine"
+                    },
+                    {
+                      "id": 5,
+                      "name": "ten"
+                    }
+                  ]
+                }
+              ],
+              "lecture": [
+                {
+                  "id": 1,
+                  "name": "Cách hỏi tên một ai đó và cách trả lời"
+                },
+                {
+                  "id": 2,
+                  "name": "Cách hỏi tuổi người đang nói chuyện và cách trả lời"
+                },
+                {
+                  "id": 3,
+                  "name": "Cách hỏi tuổi một ai đó và cách trả lời"
+                }
+              ],
+              "phonics": [
+                {
+                  "id": 1,
+                  "name": "f"
+                },
+                {
+                  "id": 2,
+                  "name": "s"
+                }
+              ]
             }
           },
           {
@@ -126,9 +321,54 @@
             "titleVn": "Họ có phải là bạn của cậu không",
             "type": "friend",
             "content": {
-              "vocaburaly": {},
-              "lecture": {},
-              "phonics": {}
+              "vocaburaly": [
+                {
+                  "id": 1,
+                  "name": "Chủ đề bạn bè",
+                  "voca": [
+                    {
+                      "id": 1,
+                      "name": "teacher"
+                    },
+                    {
+                      "id": 2,
+                      "name": "classmate"
+                    },
+                    {
+                      "id": 3,
+                      "name": "friend"
+                    },
+                    {
+                      "id": 4,
+                      "name": "they"
+                    },
+                    {
+                      "id": 5,
+                      "name": "too"
+                    }
+                  ]
+                }
+              ],
+              "lecture": [
+                {
+                  "id": 1,
+                  "name": "Cách hỏi về 1 người bạn và cách trả lời"
+                },
+                {
+                  "id": 2,
+                  "name": "Cách hỏi về những người bạn và cách trả lời"
+                }
+              ],
+              "phonics": [
+                {
+                  "id": 1,
+                  "name": "a"
+                },
+                {
+                  "id": 2,
+                  "name": "e"
+                }
+              ]
             }
           }
         ]
@@ -138,61 +378,372 @@
         "idType": 2,
         "name": "Trường học",
         "lesson": [
-            {
-                "id": 1,
-                "titleEn": "Hello",
-                "titleVn": "Xin chào",
-                "type": "friend",
-                "content": {
-                  "vocaburaly": {},
-                  "lecture": {},
-                  "phonics": {}
+          {
+            "id": 1,
+            "titleEn": "Hello",
+            "titleVn": "Xin chào",
+            "type": "friend",
+            "content": {
+              "vocaburaly": [
+                {
+                  "id": 1,
+                  "name": "Chủ đề nói lời chào và tạm biệt",
+                  "voca": [
+                    {
+                      "id": 1,
+                      "name": "hello"
+                    },
+                    {
+                      "id": 2,
+                      "name": "hi"
+                    },
+                    {
+                      "id": 3,
+                      "name": "nice to meet you"
+                    },
+                    {
+                      "id": 4,
+                      "name": "goodbye"
+                    },
+                    {
+                      "id": 5,
+                      "name": "bye"
+                    },
+                    {
+                      "id": 6,
+                      "name": "bye-bye"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "name": "Chủ đề hỏi thăm sức khoẻ",
+                  "voca": [
+                    {
+                      "id": 1,
+                      "name": "fine"
+                    },
+                    {
+                      "id": 2,
+                      "name": "thanks"
+                    },
+                    {
+                      "id": 3,
+                      "name": "thank you"
+                    },
+                    {
+                      "id": 4,
+                      "name": "how are you"
+                    }
+                  ]
                 }
-              },
-              {
-                "id": 2,
-                "titleEn": "What's your name?",
-                "titleVn": "Tên bạn là gì?",
-                "type": "friend",
-                "content": {
-                  "vocaburaly": {},
-                  "lecture": {},
-                  "phonics": {}
+              ],
+              "lecture": [
+                {
+                  "id": 1,
+                  "name": "Nói lời chào khi lần đầu gặp mặt"
+                },
+                {
+                  "id": 2,
+                  "name": "Hỏi thăm sức khoẻ"
                 }
-              },
-              {
-                "id": 3,
-                "titleEn": "This is Minnie.",
-                "titleVn": "Đây là Minnie",
-                "type": "friend",
-                "content": {
-                  "vocaburaly": {},
-                  "lecture": {},
-                  "phonics": {}
+              ],
+              "phonics": [
+                {
+                  "id": 1,
+                  "name": "b"
+                },
+                {
+                  "id": 2,
+                  "name": "h"
                 }
-              },
-              {
-                "id": 4,
-                "titleEn": "How old are you?",
-                "titleVn": "Bạn bao nhiêu tuổi",
-                "type": "friend",
-                "content": {
-                  "vocaburaly": {},
-                  "lecture": {},
-                  "phonics": {}
+              ]
+            }
+          },
+          {
+            "id": 2,
+            "titleEn": "What's your name?",
+            "titleVn": "Tên bạn là gì?",
+            "type": "friend",
+            "content": {
+              "vocaburaly": [
+                {
+                  "id": 1,
+                  "name": "Chủ đề hỏi đánh vần tên",
+                  "voca": [
+                    {
+                      "id": 1,
+                      "name": "what"
+                    },
+                    {
+                      "id": 2,
+                      "name": "how"
+                    },
+                    {
+                      "id": 3,
+                      "name": "you"
+                    },
+                    {
+                      "id": 4,
+                      "name": "your"
+                    },
+                    {
+                      "id": 5,
+                      "name": "name"
+                    },
+                    {
+                      "id": 6,
+                      "name": "spell"
+                    }
+                  ]
                 }
-              },
-              {
-                "id": 5,
-                "titleEn": "Are they your friend?",
-                "titleVn": "Họ có phải là bạn của cậu không",
-                "type": "friend",
-                "content": {
-                  "vocaburaly": {},
-                  "lecture": {},
-                  "phonics": {}
+              ],
+              "lecture": [
+                {
+                  "id": 1,
+                  "name": "Hỏi tên người đang nói chuyện và cách trả lời"
+                },
+                {
+                  "id": 2,
+                  "name": "Hỏi các đánh vần tên và cách trả lời"
                 }
-              }
+              ],
+              "phonics": [
+                {
+                  "id": 1,
+                  "name": "m"
+                },
+                {
+                  "id": 2,
+                  "name": "p"
+                }
+              ]
+            }
+          },
+          {
+            "id": 3,
+            "titleEn": "This is Minnie.",
+            "titleVn": "Đây là Minnie",
+            "type": "friend",
+            "content": {
+              "vocaburaly": [
+                {
+                  "id": 1,
+                  "name": "Chủ đề giới thiệu bạn bè",
+                  "voca": [
+                    {
+                      "id": 1,
+                      "name": "this"
+                    },
+                    {
+                      "id": 2,
+                      "name": "that"
+                    },
+                    {
+                      "id": 3,
+                      "name": "yes"
+                    },
+                    {
+                      "id": 4,
+                      "name": "no"
+                    },
+                    {
+                      "id": 5,
+                      "name": "end"
+                    }
+                  ]
+                }
+              ],
+              "lecture": [
+                {
+                  "id": 1,
+                  "name": "Giới thiệu một người bạn mới"
+                },
+                {
+                  "id": 2,
+                  "name": "Hỏi và trả lời về một người bạn mới"
+                }
+              ],
+              "phonics": [
+                {
+                  "id": 1,
+                  "name": "t"
+                },
+                {
+                  "id": 2,
+                  "name": "y"
+                }
+              ]
+            }
+          },
+          {
+            "id": 4,
+            "titleEn": "How old are you?",
+            "titleVn": "Bạn bao nhiêu tuổi",
+            "type": "friend",
+            "content": {
+              "vocaburaly": [
+                {
+                  "id": 1,
+                  "name": "Chủ đề hỏi tuổi",
+                  "voca": [
+                    {
+                      "id": 1,
+                      "name": "who"
+                    },
+                    {
+                      "id": 2,
+                      "name": "how old"
+                    },
+                    {
+                      "id": 3,
+                      "name": "years old"
+                    },
+                    {
+                      "id": 4,
+                      "name": "he"
+                    },
+                    {
+                      "id": 5,
+                      "name": "she"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "name": "Các số đếm từ 1 đến 5",
+                  "voca": [
+                    {
+                      "id": 1,
+                      "name": "one"
+                    },
+                    {
+                      "id": 2,
+                      "name": "two"
+                    },
+                    {
+                      "id": 3,
+                      "name": "three"
+                    },
+                    {
+                      "id": 4,
+                      "name": "four"
+                    },
+                    {
+                      "id": 5,
+                      "name": "five"
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "name": "Các số đếm từ 6 đến 10",
+                  "voca": [
+                    {
+                      "id": 1,
+                      "name": "six"
+                    },
+                    {
+                      "id": 2,
+                      "name": "seven"
+                    },
+                    {
+                      "id": 3,
+                      "name": "eight"
+                    },
+                    {
+                      "id": 4,
+                      "name": "nine"
+                    },
+                    {
+                      "id": 5,
+                      "name": "ten"
+                    }
+                  ]
+                }
+              ],
+              "lecture": [
+                {
+                  "id": 1,
+                  "name": "Cách hỏi tên một ai đó và cách trả lời"
+                },
+                {
+                  "id": 2,
+                  "name": "Cách hỏi tuổi người đang nói chuyện và cách trả lời"
+                },
+                {
+                  "id": 3,
+                  "name": "Cách hỏi tuổi một ai đó và cách trả lời"
+                }
+              ],
+              "phonics": [
+                {
+                  "id": 1,
+                  "name": "f"
+                },
+                {
+                  "id": 2,
+                  "name": "s"
+                }
+              ]
+            }
+          },
+          {
+            "id": 5,
+            "titleEn": "Are they your friend?",
+            "titleVn": "Họ có phải là bạn của cậu không",
+            "type": "friend",
+            "content": {
+              "vocaburaly": [
+                {
+                  "id": 1,
+                  "name": "Chủ đề bạn bè",
+                  "voca": [
+                    {
+                      "id": 1,
+                      "name": "teacher"
+                    },
+                    {
+                      "id": 2,
+                      "name": "classmate"
+                    },
+                    {
+                      "id": 3,
+                      "name": "friend"
+                    },
+                    {
+                      "id": 4,
+                      "name": "they"
+                    },
+                    {
+                      "id": 5,
+                      "name": "too"
+                    }
+                  ]
+                }
+              ],
+              "lecture": [
+                {
+                  "id": 1,
+                  "name": "Cách hỏi về 1 người bạn và cách trả lời"
+                },
+                {
+                  "id": 2,
+                  "name": "Cách hỏi về những người bạn và cách trả lời"
+                }
+              ],
+              "phonics": [
+                {
+                  "id": 1,
+                  "name": "a"
+                },
+                {
+                  "id": 2,
+                  "name": "e"
+                }
+              ]
+            }
+          }
         ]
       },
       {
@@ -200,61 +751,372 @@
         "idType": 3,
         "name": "Gia đình",
         "lesson": [
-            {
-                "id": 1,
-                "titleEn": "Hello",
-                "titleVn": "Xin chào",
-                "type": "friend",
-                "content": {
-                  "vocaburaly": {},
-                  "lecture": {},
-                  "phonics": {}
+          {
+            "id": 1,
+            "titleEn": "Hello",
+            "titleVn": "Xin chào",
+            "type": "friend",
+            "content": {
+              "vocaburaly": [
+                {
+                  "id": 1,
+                  "name": "Chủ đề nói lời chào và tạm biệt",
+                  "voca": [
+                    {
+                      "id": 1,
+                      "name": "hello"
+                    },
+                    {
+                      "id": 2,
+                      "name": "hi"
+                    },
+                    {
+                      "id": 3,
+                      "name": "nice to meet you"
+                    },
+                    {
+                      "id": 4,
+                      "name": "goodbye"
+                    },
+                    {
+                      "id": 5,
+                      "name": "bye"
+                    },
+                    {
+                      "id": 6,
+                      "name": "bye-bye"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "name": "Chủ đề hỏi thăm sức khoẻ",
+                  "voca": [
+                    {
+                      "id": 1,
+                      "name": "fine"
+                    },
+                    {
+                      "id": 2,
+                      "name": "thanks"
+                    },
+                    {
+                      "id": 3,
+                      "name": "thank you"
+                    },
+                    {
+                      "id": 4,
+                      "name": "how are you"
+                    }
+                  ]
                 }
-            },
-            {
-                "id": 2,
-                "titleEn": "What's your name?",
-                "titleVn": "Tên bạn là gì?",
-                "type": "friend",
-                "content": {
-                  "vocaburaly": {},
-                  "lecture": {},
-                  "phonics": {}
+              ],
+              "lecture": [
+                {
+                  "id": 1,
+                  "name": "Nói lời chào khi lần đầu gặp mặt"
+                },
+                {
+                  "id": 2,
+                  "name": "Hỏi thăm sức khoẻ"
                 }
-            },
-            {
-                "id": 3,
-                "titleEn": "This is Minnie.",
-                "titleVn": "Đây là Minnie",
-                "type": "friend",
-                "content": {
-                  "vocaburaly": {},
-                  "lecture": {},
-                  "phonics": {}
+              ],
+              "phonics": [
+                {
+                  "id": 1,
+                  "name": "b"
+                },
+                {
+                  "id": 2,
+                  "name": "h"
                 }
-            },
-            {
-                "id": 4,
-                "titleEn": "How old are you?",
-                "titleVn": "Bạn bao nhiêu tuổi",
-                "type": "friend",
-                "content": {
-                  "vocaburaly": {},
-                  "lecture": {},
-                  "phonics": {}
-                }
-            },
-            {
-                "id": 5,
-                "titleEn": "Are they your friend?",
-                "titleVn": "Họ có phải là bạn của cậu không",
-                "type": "friend",
-                "content": {
-                  "vocaburaly": {},
-                  "lecture": {},
-                  "phonics": {}
-                }
+              ]
             }
+          },
+          {
+            "id": 2,
+            "titleEn": "What's your name?",
+            "titleVn": "Tên bạn là gì?",
+            "type": "friend",
+            "content": {
+              "vocaburaly": [
+                {
+                  "id": 1,
+                  "name": "Chủ đề hỏi đánh vần tên",
+                  "voca": [
+                    {
+                      "id": 1,
+                      "name": "what"
+                    },
+                    {
+                      "id": 2,
+                      "name": "how"
+                    },
+                    {
+                      "id": 3,
+                      "name": "you"
+                    },
+                    {
+                      "id": 4,
+                      "name": "your"
+                    },
+                    {
+                      "id": 5,
+                      "name": "name"
+                    },
+                    {
+                      "id": 6,
+                      "name": "spell"
+                    }
+                  ]
+                }
+              ],
+              "lecture": [
+                {
+                  "id": 1,
+                  "name": "Hỏi tên người đang nói chuyện và cách trả lời"
+                },
+                {
+                  "id": 2,
+                  "name": "Hỏi các đánh vần tên và cách trả lời"
+                }
+              ],
+              "phonics": [
+                {
+                  "id": 1,
+                  "name": "m"
+                },
+                {
+                  "id": 2,
+                  "name": "p"
+                }
+              ]
+            }
+          },
+          {
+            "id": 3,
+            "titleEn": "This is Minnie.",
+            "titleVn": "Đây là Minnie",
+            "type": "friend",
+            "content": {
+              "vocaburaly": [
+                {
+                  "id": 1,
+                  "name": "Chủ đề giới thiệu bạn bè",
+                  "voca": [
+                    {
+                      "id": 1,
+                      "name": "this"
+                    },
+                    {
+                      "id": 2,
+                      "name": "that"
+                    },
+                    {
+                      "id": 3,
+                      "name": "yes"
+                    },
+                    {
+                      "id": 4,
+                      "name": "no"
+                    },
+                    {
+                      "id": 5,
+                      "name": "end"
+                    }
+                  ]
+                }
+              ],
+              "lecture": [
+                {
+                  "id": 1,
+                  "name": "Giới thiệu một người bạn mới"
+                },
+                {
+                  "id": 2,
+                  "name": "Hỏi và trả lời về một người bạn mới"
+                }
+              ],
+              "phonics": [
+                {
+                  "id": 1,
+                  "name": "t"
+                },
+                {
+                  "id": 2,
+                  "name": "y"
+                }
+              ]
+            }
+          },
+          {
+            "id": 4,
+            "titleEn": "How old are you?",
+            "titleVn": "Bạn bao nhiêu tuổi",
+            "type": "friend",
+            "content": {
+              "vocaburaly": [
+                {
+                  "id": 1,
+                  "name": "Chủ đề hỏi tuổi",
+                  "voca": [
+                    {
+                      "id": 1,
+                      "name": "who"
+                    },
+                    {
+                      "id": 2,
+                      "name": "how old"
+                    },
+                    {
+                      "id": 3,
+                      "name": "years old"
+                    },
+                    {
+                      "id": 4,
+                      "name": "he"
+                    },
+                    {
+                      "id": 5,
+                      "name": "she"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "name": "Các số đếm từ 1 đến 5",
+                  "voca": [
+                    {
+                      "id": 1,
+                      "name": "one"
+                    },
+                    {
+                      "id": 2,
+                      "name": "two"
+                    },
+                    {
+                      "id": 3,
+                      "name": "three"
+                    },
+                    {
+                      "id": 4,
+                      "name": "four"
+                    },
+                    {
+                      "id": 5,
+                      "name": "five"
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "name": "Các số đếm từ 6 đến 10",
+                  "voca": [
+                    {
+                      "id": 1,
+                      "name": "six"
+                    },
+                    {
+                      "id": 2,
+                      "name": "seven"
+                    },
+                    {
+                      "id": 3,
+                      "name": "eight"
+                    },
+                    {
+                      "id": 4,
+                      "name": "nine"
+                    },
+                    {
+                      "id": 5,
+                      "name": "ten"
+                    }
+                  ]
+                }
+              ],
+              "lecture": [
+                {
+                  "id": 1,
+                  "name": "Cách hỏi tên một ai đó và cách trả lời"
+                },
+                {
+                  "id": 2,
+                  "name": "Cách hỏi tuổi người đang nói chuyện và cách trả lời"
+                },
+                {
+                  "id": 3,
+                  "name": "Cách hỏi tuổi một ai đó và cách trả lời"
+                }
+              ],
+              "phonics": [
+                {
+                  "id": 1,
+                  "name": "f"
+                },
+                {
+                  "id": 2,
+                  "name": "s"
+                }
+              ]
+            }
+          },
+          {
+            "id": 5,
+            "titleEn": "Are they your friend?",
+            "titleVn": "Họ có phải là bạn của cậu không",
+            "type": "friend",
+            "content": {
+              "vocaburaly": [
+                {
+                  "id": 1,
+                  "name": "Chủ đề bạn bè",
+                  "voca": [
+                    {
+                      "id": 1,
+                      "name": "teacher"
+                    },
+                    {
+                      "id": 2,
+                      "name": "classmate"
+                    },
+                    {
+                      "id": 3,
+                      "name": "friend"
+                    },
+                    {
+                      "id": 4,
+                      "name": "they"
+                    },
+                    {
+                      "id": 5,
+                      "name": "too"
+                    }
+                  ]
+                }
+              ],
+              "lecture": [
+                {
+                  "id": 1,
+                  "name": "Cách hỏi về 1 người bạn và cách trả lời"
+                },
+                {
+                  "id": 2,
+                  "name": "Cách hỏi về những người bạn và cách trả lời"
+                }
+              ],
+              "phonics": [
+                {
+                  "id": 1,
+                  "name": "a"
+                },
+                {
+                  "id": 2,
+                  "name": "e"
+                }
+              ]
+            }
+          }
         ]
       }
     ],

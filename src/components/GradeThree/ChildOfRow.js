@@ -24,13 +24,15 @@ class ChildOfRow extends Component {
 
     getHeight() {
         if(this.props.open){
-            return 468;
+            return 500;
         } else {
             return 0;
         }
     }
 
-    renderContent( item, index ) {
+    renderContentVoca( vocaburaly, index ) {
+        const voca = _.map(vocaburaly.voca, item => <div style={{ display: 'inline-block' }}>{item.name + ','}</div>);
+
         return(
             <div className='ehmld_name'>
                 <div className='ehmldn_icon'>
@@ -38,9 +40,39 @@ class ChildOfRow extends Component {
                 </div>
                 <div className='ehmldn_text'>
                     <a className="eh_link" href="https://www.tienganh123.com/tieng-anh-lop3-unit1-vocab/17356-chu-de-noi-loi-chao-va-tam-biet.html">
-                        <div className="ehmldnt_up">{item.name}</div>
+                        <div className="ehmldnt_up">{vocaburaly.name}</div>
                     </a>
-                    <div className="ehmldnt_down">(Từ vựng: hello, hi, nice to meet you, goodbye, bye, bye-bye)</div>
+                    {<div className="ehmldnt_down">(Từ vựng: {voca})</div>}
+                </div>
+            </div>
+        );
+    }
+
+    renderContentLec( lecture, index ) {
+        return(
+            <div className='ehmld_name'>
+                <div className='ehmldn_icon'>
+
+                </div>
+                <div className='ehmldn_text'>
+                    <a className="eh_link" href="https://www.tienganh123.com/tieng-anh-lop3-unit1-vocab/17356-chu-de-noi-loi-chao-va-tam-biet.html">
+                        <div className="ehmldnt_up">{lecture.name}</div>
+                    </a>
+                </div>
+            </div>
+        );
+    }
+
+    renderContentPhonics( phonics, index ) {
+        return(
+            <div className='ehmld_name'>
+                <div className='ehmldn_icon'>
+
+                </div>
+                <div className='ehmldn_text'>
+                    <a className="eh_link" href="https://www.tienganh123.com/tieng-anh-lop3-unit1-vocab/17356-chu-de-noi-loi-chao-va-tam-biet.html">
+                        <div className="ehmldnt_up">Phát âm chữ "{phonics.name}"</div>
+                    </a>
                 </div>
             </div>
         );
@@ -48,11 +80,13 @@ class ChildOfRow extends Component {
 
     render() {
         const { item } = this.props;
-        const { content: { vocaburaly } } = item;
-        const renderCtVoca = _.map(vocaburaly, this.renderContent.bind(this));
+        const { content: { vocaburaly, lecture, phonics } } = item;
+        const renderCtVoca = _.map(vocaburaly, this.renderContentVoca.bind(this));
+        const renderCtLec = _.map(lecture, this.renderContentLec.bind(this));
+        const renderCtPhonics = _.map(phonics, this.renderContentPhonics.bind(this));
 
         return (
-            <div style={{ width: '100%', maxHeight: 500, marginBottom: 43, position: 'relative' }} onClick={this.toggleContent.bind(this)}>
+            <div style={{ width: '100%', maxHeight: 539, marginBottom: 43, position: 'relative' }} onClick={this.toggleContent.bind(this)}>
                 <Row style={{ width: '95%', height: 72, margin: 'auto', cursor: 'pointer', position: 'relative' }}>
                     <Col xs={2} sm={2} md={2} lg={2} xl={2}
                     style={{ backgroundColor: !this.props.open ? this.state.colorL : '#8560a8', height: '100%', color: '#ffffff', fontSize: 48 }}>{item.id}</Col>
@@ -82,26 +116,7 @@ class ChildOfRow extends Component {
                             <div className='ehmld_tit'>
                                 LECTURE - BÀI GIẢNG
                             </div>
-                            <div className='ehmld_name'>
-                                <div className='ehmldn_icon'>
-
-                                </div>
-                                <div className='ehmldn_text'>
-                                    <a className="eh_link" href="https://www.tienganh123.com/tieng-anh-lop3-unit1-vocab/17356-chu-de-noi-loi-chao-va-tam-biet.html">
-                                        <div className="ehmldnt_up">Nói lời chào khi lần đầu gặp mặt</div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div className='ehmld_name'>
-                                <div className='ehmldn_icon'>
-
-                                </div>
-                                <div className='ehmldn_text'>
-                                <a className="eh_link" href="https://www.tienganh123.com/tieng-anh-lop3-unit1-vocab/17357-chu-de-hoi-tham-suc-khoe.html">
-                                    <div className="ehmldnt_up">Hỏi thăm sức khoẻ</div>
-                                </a>
-                                </div>
-                            </div>
+                            {renderCtLec}
                             <div className='ehmld_name'>
                                 <div className='ehmldn_icon ehmldn_icon_pen'>
 
@@ -120,27 +135,7 @@ class ChildOfRow extends Component {
                             <div className='ehmld_tit'>
                                 PHONICS - HỌC VỀ ÂM
                             </div>
-                            <div className='ehmld_name'>
-                                <div className='ehmldn_icon'>
-
-                                </div>
-                                <div className='ehmldn_text'>
-                                    <a className="eh_link" href="https://www.tienganh123.com/tieng-anh-lop3-unit1-vocab/17356-chu-de-noi-loi-chao-va-tam-biet.html">
-                                        <div className="ehmldnt_up">Phát âm chữ "b"</div>
-                                    </a>
-                                    
-                                </div>
-                            </div>
-                            <div className='ehmld_name'>
-                                <div className='ehmldn_icon'>
-
-                                </div>
-                                <div className='ehmldn_text'>
-                                <a className="eh_link" href="https://www.tienganh123.com/tieng-anh-lop3-unit1-vocab/17357-chu-de-hoi-tham-suc-khoe.html">
-                                    <div className="ehmldnt_up">Phát âm chữ "h"</div>
-                                </a>
-                                </div>
-                            </div>
+                            {renderCtPhonics}
                             <div className='ehmld_name'>
                                 <div className='ehmldn_icon ehmldn_icon_pen'>
 
@@ -153,7 +148,7 @@ class ChildOfRow extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className='ehml_verline' style={{ height: 369, left: 63, backgroundColor: '#8560a8', width: 2 , position: 'absolute', top: -1 }}></div>
+                    <div className='ehml_verline' style={{ height: '90%', left: 63, backgroundColor: '#8560a8', width: 2 , position: 'absolute', top: -1 }}></div>
                 </div>
             </div>
         );
