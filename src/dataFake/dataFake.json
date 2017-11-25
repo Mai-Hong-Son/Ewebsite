@@ -10,35 +10,126 @@
             "titleEn": "Hello",
             "titleVn": "Xin chào",
             "type": "friend",
-            "content": []
+            "content": {
+              "vocaburaly": [
+                {
+                  "id": 1,
+                  "name": "Chủ đề nói lời chào và tạm biệt",
+                  "voca": [
+                    {
+                      "id": 1,
+                      "name": "hello"
+                    },
+                    {
+                      "id": 2,
+                      "name": "hi"
+                    },
+                    {
+                      "id": 3,
+                      "name": "nice to meet you"
+                    },
+                    {
+                      "id": 4,
+                      "name": "goodbye"
+                    },
+                    {
+                      "id": 5,
+                      "name": "bye"
+                    },
+                    {
+                      "id": 6,
+                      "name": "bye-bye"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "name": "Chủ đề hỏi thăm sức khoẻ",
+                  "voca": [
+                    {
+                      "id": 1,
+                      "name": "fine"
+                    },
+                    {
+                      "id": 2,
+                      "name": "thanks"
+                    },
+                    {
+                      "id": 3,
+                      "name": "thank you"
+                    },
+                    {
+                      "id": 4,
+                      "name": "how are you"
+                    }
+                  ]
+                }
+              ],
+              "lecture": [
+                {
+                  "id": 1,
+                  "name": "Nói lời chào khi lần đầu gặp mặt"
+                },
+                {
+                  "id": 2,
+                  "name": "Hỏi thăm sức khoẻ"
+                }
+              ],
+              "phonics": [
+                {
+                  "id": 1,
+                  "name": "b"
+                },
+                {
+                  "id": 2,
+                  "name": "h"
+                }
+              ]
+            }
           },
           {
             "id": 2,
             "titleEn": "What's your name?",
             "titleVn": "Tên bạn là gì?",
             "type": "friend",
-            "content": []
+            "content": {
+              "vocaburaly": {},
+              "lecture": {},
+              "phonics": {}
+            }
           },
           {
             "id": 3,
             "titleEn": "This is Minnie.",
             "titleVn": "Đây là Minnie",
             "type": "friend",
-            "content": []
+            "content": {
+              "vocaburaly": {},
+              "lecture": {},
+              "phonics": {}
+            }
           },
           {
             "id": 4,
             "titleEn": "How old are you?",
             "titleVn": "Bạn bao nhiêu tuổi",
             "type": "friend",
-            "content": []
+            "content": {
+              "vocaburaly": {},
+              "lecture": {},
+              "phonics": {}
+            }
           },
           {
             "id": 5,
             "titleEn": "Are they your friend?",
             "titleVn": "Họ có phải là bạn của cậu không",
             "type": "friend",
-            "content": []
+            "content": {
+              "vocaburaly": {},
+              "lecture": {},
+              "phonics": {}
+            }
           }
         ]
       },
@@ -52,35 +143,55 @@
                 "titleEn": "Hello",
                 "titleVn": "Xin chào",
                 "type": "friend",
-                "content": []
+                "content": {
+                  "vocaburaly": {},
+                  "lecture": {},
+                  "phonics": {}
+                }
               },
               {
                 "id": 2,
                 "titleEn": "What's your name?",
                 "titleVn": "Tên bạn là gì?",
                 "type": "friend",
-                "content": []
+                "content": {
+                  "vocaburaly": {},
+                  "lecture": {},
+                  "phonics": {}
+                }
               },
               {
                 "id": 3,
                 "titleEn": "This is Minnie.",
                 "titleVn": "Đây là Minnie",
                 "type": "friend",
-                "content": []
+                "content": {
+                  "vocaburaly": {},
+                  "lecture": {},
+                  "phonics": {}
+                }
               },
               {
                 "id": 4,
                 "titleEn": "How old are you?",
                 "titleVn": "Bạn bao nhiêu tuổi",
                 "type": "friend",
-                "content": []
+                "content": {
+                  "vocaburaly": {},
+                  "lecture": {},
+                  "phonics": {}
+                }
               },
               {
                 "id": 5,
                 "titleEn": "Are they your friend?",
                 "titleVn": "Họ có phải là bạn của cậu không",
                 "type": "friend",
-                "content": []
+                "content": {
+                  "vocaburaly": {},
+                  "lecture": {},
+                  "phonics": {}
+                }
               }
         ]
       },
@@ -94,35 +205,55 @@
                 "titleEn": "Hello",
                 "titleVn": "Xin chào",
                 "type": "friend",
-                "content": []
+                "content": {
+                  "vocaburaly": {},
+                  "lecture": {},
+                  "phonics": {}
+                }
             },
             {
                 "id": 2,
                 "titleEn": "What's your name?",
                 "titleVn": "Tên bạn là gì?",
                 "type": "friend",
-                "content": []
+                "content": {
+                  "vocaburaly": {},
+                  "lecture": {},
+                  "phonics": {}
+                }
             },
             {
                 "id": 3,
                 "titleEn": "This is Minnie.",
                 "titleVn": "Đây là Minnie",
                 "type": "friend",
-                "content": []
+                "content": {
+                  "vocaburaly": {},
+                  "lecture": {},
+                  "phonics": {}
+                }
             },
             {
                 "id": 4,
                 "titleEn": "How old are you?",
                 "titleVn": "Bạn bao nhiêu tuổi",
                 "type": "friend",
-                "content": []
+                "content": {
+                  "vocaburaly": {},
+                  "lecture": {},
+                  "phonics": {}
+                }
             },
             {
                 "id": 5,
                 "titleEn": "Are they your friend?",
                 "titleVn": "Họ có phải là bạn của cậu không",
                 "type": "friend",
-                "content": []
+                "content": {
+                  "vocaburaly": {},
+                  "lecture": {},
+                  "phonics": {}
+                }
             }
         ]
       }
