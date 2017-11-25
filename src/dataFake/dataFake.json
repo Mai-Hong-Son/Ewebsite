@@ -1,0 +1,131 @@
+{
+    "result": [
+      {
+        "type": "friend",
+        "idType": 1,
+        "name": "Bạn bè",
+        "lesson": [
+          {
+            "id": 1,
+            "titleEn": "Hello",
+            "titleVn": "Xin chào",
+            "type": "friend",
+            "content": []
+          },
+          {
+            "id": 2,
+            "titleEn": "What's your name?",
+            "titleVn": "Tên bạn là gì?",
+            "type": "friend",
+            "content": []
+          },
+          {
+            "id": 3,
+            "titleEn": "This is Minnie.",
+            "titleVn": "Đây là Minnie",
+            "type": "friend",
+            "content": []
+          },
+          {
+            "id": 4,
+            "titleEn": "How old are you?",
+            "titleVn": "Bạn bao nhiêu tuổi",
+            "type": "friend",
+            "content": []
+          },
+          {
+            "id": 5,
+            "titleEn": "Are they your friend?",
+            "titleVn": "Họ có phải là bạn của cậu không",
+            "type": "friend",
+            "content": []
+          }
+        ]
+      },
+      {
+        "type": "school",
+        "idType": 2,
+        "name": "Trường học",
+        "lesson": [
+            {
+                "id": 1,
+                "titleEn": "Hello",
+                "titleVn": "Xin chào",
+                "type": "friend",
+                "content": []
+              },
+              {
+                "id": 2,
+                "titleEn": "What's your name?",
+                "titleVn": "Tên bạn là gì?",
+                "type": "friend",
+                "content": []
+              },
+              {
+                "id": 3,
+                "titleEn": "This is Minnie.",
+                "titleVn": "Đây là Minnie",
+                "type": "friend",
+                "content": []
+              },
+              {
+                "id": 4,
+                "titleEn": "How old are you?",
+                "titleVn": "Bạn bao nhiêu tuổi",
+                "type": "friend",
+                "content": []
+              },
+              {
+                "id": 5,
+                "titleEn": "Are they your friend?",
+                "titleVn": "Họ có phải là bạn của cậu không",
+                "type": "friend",
+                "content": []
+              }
+        ]
+      },
+      {
+        "type": "family",
+        "idType": 3,
+        "name": "Gia đình",
+        "lesson": [
+            {
+                "id": 1,
+                "titleEn": "Hello",
+                "titleVn": "Xin chào",
+                "type": "friend",
+                "content": []
+            },
+            {
+                "id": 2,
+                "titleEn": "What's your name?",
+                "titleVn": "Tên bạn là gì?",
+                "type": "friend",
+                "content": []
+            },
+            {
+                "id": 3,
+                "titleEn": "This is Minnie.",
+                "titleVn": "Đây là Minnie",
+                "type": "friend",
+                "content": []
+            },
+            {
+                "id": 4,
+                "titleEn": "How old are you?",
+                "titleVn": "Bạn bao nhiêu tuổi",
+                "type": "friend",
+                "content": []
+            },
+            {
+                "id": 5,
+                "titleEn": "Are they your friend?",
+                "titleVn": "Họ có phải là bạn của cậu không",
+                "type": "friend",
+                "content": []
+            }
+        ]
+      }
+    ],
+    "result_info": {}
+  }

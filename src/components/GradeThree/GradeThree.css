@@ -1,0 +1,104 @@
+#components-layout-demo-top .logo {
+  width: 120px;
+  height: 31px;
+  background: #333;
+  border-radius: 6px;
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+
+.ant-timeline-item-tail {
+  border-left-color: red;
+}
+
+.ehmld_box {
+  width: 95%;
+  margin: auto;
+  max-height: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e4e4e4;
+  overflow: hidden;
+  display: block;
+  position: relative;
+}
+
+.wrap_child_box {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+  width: 100%;
+  position: relative;
+}
+
+.ehmld_icon {
+  z-index: 1;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px 45px;
+  width: 36px;
+  height: 38px;
+  position: relative;
+  background-image: url(//goldenkids-data.tienganh123.com/file/learn/child/pc/ta345_new/img/eh_icon3.png);
+}
+
+.ehmld_arcontent {
+  display: inline-block;
+  vertical-align: middle;
+  width: 89%;
+  position: relative;
+}
+
+.ehmld_tit {
+  /* font-family: roboto; */
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  /* position: absolute; */
+}
+
+.ehmld_name {
+  margin-top: 10px;
+  /* position: absolute; */
+}
+
+.ehmldn_icon {
+  display: inline-block;
+  margin: 5px 5px 0px 0px;
+  vertical-align: top;
+  width: 15px;
+  height: 12px;
+  background-image: url(//goldenkids-data.tienganh123.com/file/learn/child/pc/ta345_new/img/eh_icon4.png);
+}
+
+.ehmldn_text {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 96%;
+}
+
+.eh_link {
+  color: #247ba0;
+  text-decoration: none;
+}
+
+.ehmldnt_down {
+  color: #909090;
+}
+
+.ehmld_area_lesson .ehmld_icon {
+  background-position: -36px 0px;
+}
+
+.ehmld_area_phonic .ehmld_icon {
+  background-position: -72px 0px;
+}
+
+.ehmldn_icon_pen {
+  background-position: -15px 0px;
+}
+
+.ehml_verline {
+   min-height: 70%;
+}
