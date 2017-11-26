@@ -1,0 +1,153 @@
+.ev_tit {
+    font-size: 31px;
+    color: #ec008c;
+    margin-bottom: 12px;
+}
+
+.ev_name {
+    font-size: 26px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.ev_arvideo {
+    width: 100%;
+    min-height: 430px;
+    left: -38px;
+    height: auto;
+    background-color: black;
+    margin: 40px 0px 40px 0px;
+    align-items: 'center';
+}
+
+.evv_artask {
+    display: inline-block;
+    vertical-align: top;
+    margin: 25px 25px 30px 40px;
+    width: 20%;
+}
+
+.evv_video {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 25px;
+    width: 70%;
+}
+
+.evvt_bg {
+    width: 100%;
+    min-height: 50px;
+    cursor: pointer;
+    /* background-color: #00b9db; */
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.evvt_icon {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 26px;
+    margin: 12px 5px;
+    color: white;
+}
+
+.evvt_text {
+    display: inline-block;
+    vertical-align: middle;
+    width: 83%;
+    color: white;
+    font-size: 18px;
+}
+
+.evp_arheader {
+    text-align: center;
+    margin: 60px auto 30px auto;
+}
+
+.evph_line {
+    display: inline-block;
+    vertical-align: middle;
+    width: 180px;
+    height: 1px;
+    background-color: #ff8eb2;
+}
+
+.evph_bgtext {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 30px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+    text-align: center;
+    width: 400px;
+    height: 33px;
+    padding-top: 2px;
+    margin: 0px 10px;
+    background-image: url(//goldenkids-data.tienganh123.com/file/learn/child/pc/ta345_new/img/ev_frame.png);
+}
+
+.evph_ins {
+    color: #333333;
+    font-size: 19px;
+    margin: 25px auto 16px auto;
+}
+
+.evphi_icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 67px;
+    height: 65px;
+    background-image: url(//goldenkids-data.tienganh123.com/file/learn/child/pc/ta345_new/img/ev_ilisten.png);
+}
+
+.evphi_text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.evp_arplay {
+    text-align: center;
+}
+
+.evpp_arword {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 32px 27px 0px;
+}
+
+.evppw_pic {
+    width: 226px;
+    height: 226px;
+    cursor: pointer;
+    border: solid 7px #37b5ff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.evppw_arbottom {
+    width: 226px;
+    height: 120px;
+    padding-top: 19px;
+    text-align: center;
+    border-bottom: dashed 2px #37b5ff;
+    border-left: dashed 2px #37b5ff;
+    border-right: dashed 2px #37b5ff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.evppw_ten {
+    font-size: 21px;
+    color: #dd2685;
+    display: inline-block;
+}
+
+.evppw_tvi {
+    font-family: arial;
+    font-size: 17px;
+    color: #878787;
+    margin: 12px auto 15px auto;
+}

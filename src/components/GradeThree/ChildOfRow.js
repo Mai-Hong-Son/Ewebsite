@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import _ from 'lodash';
 import './GradeThree.css';
 import 'antd/dist/antd.css';
@@ -39,9 +40,9 @@ class ChildOfRow extends Component {
 
                 </div>
                 <div className='ehmldn_text'>
-                    <a className="eh_link" href="https://www.tienganh123.com/tieng-anh-lop3-unit1-vocab/17356-chu-de-noi-loi-chao-va-tam-biet.html">
+                    <Link className="eh_link" to='topic'>
                         <div className="ehmldnt_up">{vocaburaly.name}</div>
-                    </a>
+                    </Link>
                     {<div className="ehmldnt_down">(Từ vựng: {voca})</div>}
                 </div>
             </div>
